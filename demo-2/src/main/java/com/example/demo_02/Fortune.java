@@ -15,10 +15,8 @@ public class Fortune
 			return( "middleFortune.html" );
 		}else if ( fn >= 0.1 ) {
 			return( "smallFortune.html" );
-		}else{
+		} else{
 			return( "misFortune.html" );	
-		}
-			
-	}
-				
+		}			
+	}    		
 }
